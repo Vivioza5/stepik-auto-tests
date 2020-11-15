@@ -3,7 +3,7 @@ import time
 
 try:
     browser = webdriver.Chrome('/home/vitaliy/.wdm/drivers/chromedriver/linux64/86.0.4240.22/chromedriver')
-    browser.get("http://suninjuly.github.io/registration1.html")
+    browser.get("http://suninjuly.github.io/registration2.html")
     input1 = browser.find_element_by_css_selector("div.first_block input.form-control.first")
     input1.send_keys("Ivan")
     input2 = browser.find_element_by_css_selector("div.first_block input.form-control.second")
