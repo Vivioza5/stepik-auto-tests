@@ -28,15 +28,15 @@
 # print(product)
 
 num = 8945
-last_digit = num % 10
-min=last_digit
-max=last_digit
+
+min=9
+max=0
 while num != 0:
     last_digit = num % 10
     if min>last_digit :
         min=last_digit
-    else:
-        max=last_digit
+    if max<last_digit :
+       max=last_digit
     num = num // 10
 print(min)
 print(max)
