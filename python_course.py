@@ -103,21 +103,7 @@
 #         print(n, end=' ')
 #     print()
 
-# num=int(input())
-# sum1=0
-# sum2=0
-# for i in range(3):
-#     last_digit = num % 10
-#     num = num // 10
-#     sum1+=last_digit
-# for i in range(3):
-#     last_digit = num % 10
-#     num = num // 10
-#     sum2+=last_digit
-# if sum1==sum2:
-#     print('Счастливый')
-# else:
-#     print('Обычный')
+
 # i = 0
 # while i <= 10:
 #     i = i + 1
@@ -143,12 +129,61 @@
 #     i = i + 1
 # print(i)
 
-n = int(input())
-i=0
-summ=0
-while i < n:
-    num= int(input())
-    summ+=num
-    i+=1
-print(summ)
+# n = int(input())
+# i=0
+# summ=0
+# while i < n:
+#     num= int(input())
+#     summ+=num
+#     i+=1
+# print(summ)
+# x = [1, 2, 3]
+# y = x
+# y.append(4)
+#
+# s = "123"
+# t = s
+# t = t + "4"
+#
+# print(str(x) + " " + s)
 
+# i = 0
+# s = 0
+# while i < 10:
+#     i = i + 1
+#     s = s + i
+#     if s > 15:
+#         continue
+#     i = i + 1
+# print(i)
+
+
+# i = 1
+# while i > 0:
+#     num= int(input())
+#     i +=1
+#     if num < 10:
+#             continue
+#     if num > 100:
+#             break
+#     print(num)
+#
+# students = ['Ivan', 'Masha', 'Sasha']
+# students += ['Olga']
+# students += 'Olga'
+# print(students)
+
+a = [1, 2, 3]
+b = a
+# значения списка b?
+
+a[1] = 10
+# значения списка b?
+
+b[0] = 20
+# значения списка a?
+
+a = [5, 6]
+# значения списка b?
+print(a)
+print(b)
