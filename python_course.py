@@ -172,18 +172,94 @@
 # students += ['Olga']
 # students += 'Olga'
 # print(students)
+#
+# a = [1, 2, 3]
+# b = a
+# # значения списка b?
+#
+# a[1] = 10
+# # значения списка b?
+#
+# b[0] = 20
+# # значения списка a?
+#
+# a = [5, 6]
+# # значения списка b?
+# print(a)
+# print(b)
+# 
+# num = int(input())
+# last_digit1=num % 10
+# has_seven = False  # сигнальная метка
+# min = 9
+# max = 0
+# summ = 0
+# count = 0
+# proizv = 1
+# while num != 0:
+#     last_digit = num % 10
+#     summ += last_digit
+#     count += 1
+#     summ += last_digit
+#     proizv *= last_digit
+#     num = num // 10
+#     #
+#     #
+#     # if last_digit == 7:
+#     #     has_seven = True
+# sredn=summ/count
+# first=last_digit
+# summ_f_l=first+last_digit1
+# print(summ, summ, proizv, sredn, first, summ_f_l, sep='\n')
+# while num != 0:
+#     last_digit = num % 10
+#     if min > last_digit:
+#         min = last_digit
+#     if max < last_digit:
+#         max = last_digit
+#     num = num // 10
 
-a = [1, 2, 3]
-b = a
-# значения списка b?
+# n=int(input())
+# for i in range(n):
+# #     print('*' * 19, end ='\n' )
+# m,p,n= int(input()), int(input()), int(input())
+# for i in  range (n):
+#     Day= m * (p / 100 + 1) ** i
+#     print(i+1, Day)
 
-a[1] = 10
-# значения списка b?
+# n=int(input())
+# for i in range(n):
+#     for j in range(9):
+#         print((i+1), "+", (j+1), "=",(i+1) + (j+1) )
+#     print()
+# Решите уравнение в натуральных числах 28n + 30 k + 31 m = 36528n+30k+31m=365.
+# total = 0
+# for n in range(1, 14):
+#     for k in range(1, 13):
+#         for m in range(1, 11):
+#             if 28*n+30*k+31*m == 365:
+#                 total += 1
+#                 print('n =', n, 'm =', m, "k", k)
+# print('Общее количество натуральных решений =', total)
 
-b[0] = 20
-# значения списка a?
 
-a = [5, 6]
-# значения списка b?
-print(a)
-print(b)
+# m=int(input())
+# n=int(input())
+# for i in range(m+1,n, -1 ):
+#     if i%2 !=0:
+#         print(i)
+# # if m<n:
+#     for i in range(m, n+1):
+#         print(i)
+# if m>n:
+#     for i in range(m, n-1, -1):
+#         print(i)
+# if m==n:
+#     print(n)
+
+num = int(input())
+product = 1
+while num != 0:
+    last_digit = num % 10
+    print(last_digit)
+    num = num // 10
