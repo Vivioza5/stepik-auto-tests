@@ -243,6 +243,11 @@
 # print('Общее количество натуральных решений =', total)
 
 
+# for a in range(0, 100):
+#     for b in range(0, 100):
+#         for c in range(0, 100):
+#             if ((10*a + 5*b + 0.5*c) == 100) and ((a + b + c )== 100):
+#                 print(a, b, c)
 # m=int(input())
 # n=int(input())
 # for i in range(m+1,n, -1 ):
@@ -257,9 +262,136 @@
 # if m==n:
 #     print(n)
 
-num = int(input())
-product = 1
-while num != 0:
-    last_digit = num % 10
-    print(last_digit)
-    num = num // 10
+# num = int(input())
+# product = 1
+# while num != 0:
+#     last_digit = num % 10
+#     print(last_digit)
+#     num = num // 10
+
+
+# m=int(input())
+# n=int(input())
+# for i in range(m,n+1):
+#     if i%17==0 or i%10==9 or i%15==0:
+#         print(i)
+
+#
+# n=int(input())
+# for i in range(10):
+#     print(n, "x",(i+1) , "=", ((i+1) * n))
+
+# n = int(input())
+# total=0
+# for i in range(n):
+#     for j in range(n):
+#         print(i*j, end=' ')
+#     print()
+# i*(i+1)/2
+
+# n=int(input())
+# total=1
+# cnt=1
+# for i in range(n):
+#     for j in range(cnt):
+#         print(total, end=' ')
+#         total+=1
+#     print()
+#     cnt+=1
+
+# n = int(input())
+# num=[]
+# while n !=0 :
+#     last_digit = n % 10
+#     n = n // 10
+#     num.append(last_digit)
+#     # n %= 10
+#     # n //=10
+#     # num.append(n)
+# print(num[-1])
+# num = int(input())
+# proizv=1
+# while num != 0:
+#     last_digit = num % 10
+#     proizv *= last_digit
+#     num = num // 10
+# print(proizv)
+# n=int(input())
+# for i in range(1,n+1):
+#     if 5 <= i <= 9 or 17 <= i <= 37 or 78 <= i <= 87 :
+#         continue
+#     print(i)
+# n=int(input())
+# for i in range(1, n + 1):
+#         print(int('1' * i)**2)
+
+# n=int(input())
+# cnt=1
+# for i in range(n):
+#     for j in range(cnt):
+#         print(i+1, end='')
+#     print()
+#     cnt+=1
+# for i in range(8):
+#     for j in range(i + 1):
+#         print('*', end='')
+#     print()
+#
+# for i in range(10):
+#     print('*', end=' ')
+# print()
+# for i in range(5):
+#     print('*', end=' ')
+# print()
+# for i in range(20):
+#     print('*', end=' ')
+# print()
+# прямоугольник размером 5х10:
+# for i in range(10):
+#     for j in range(5):
+#         print('*', end=' ')
+#     print()
+
+# треугольник 20x5
+# for i in range(5):
+#     for j in range(20):
+#         print('*', end=' ')
+#     print()
+# ten lines ten numbers
+# for i in range(10): #ten lines
+#     for j in range(10):#ten numers
+#         print(j, end=' ')
+#     print()
+# ten lines snd 1 lines 1 number
+# for i in range(10): #ten lines
+#     for j in range(10):#ten numers
+#         print(i, end=' ')
+#     print()
+# triangle
+# for i in range(10): #ten lines
+#     for j in range(i+1):#ten numers
+#         print('*', end=' ')
+#     print()
+# # for row in range(10):
+# #     for j in range(row):
+# #         print(" ", end=" ")
+# #     for j in range(10-row):
+# #         print (j,end=" ")
+# #     print()
+# for row in range(10):
+#     for j in range(9-row):
+#         print ('*',end=" ")
+#     for j in range(row):
+#         print (" ",end=" ")
+#     print()
+
+# n=int(input())
+# first=1
+# second=0
+# for i in range(n):
+#     fib=first+second
+#     print(fib)
+#     first=second
+#     second=fib
+s = 'abcdefg'
+print(s[0]*3 + s[-1]*3 + s[3]*2 + s[3]*2)
