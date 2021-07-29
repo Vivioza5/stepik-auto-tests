@@ -1,7 +1,7 @@
 import unittest
 from selenium import webdriver
 import time
-
+from pathDriver import path_driver
 link = "http://suninjuly.github.io/registration1.html"
 link1 = "http://suninjuly.github.io/registration2.html"
 
@@ -28,9 +28,9 @@ def action_on_page(link):
 
 
 try:
-    browser = webdriver.Chrome()
+    browser = webdriver.Chrome(path_driver)
     page1 = action_on_page(link)
-    page2 = action_on_page(link1)
+    # page2 = action_on_page(link1)
     print(page1)
 
 #     # browser.get("http://suninjuly.github.io/registration1.html")
@@ -72,4 +72,4 @@ class TestAbs(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
     TestAbs.test_welcome_text(page1)
-    TestAbs.test_welcome_text(page2)
+    # TestAbs.test_welcome_text(page2)
