@@ -1,10 +1,10 @@
 from selenium import webdriver
 import time
-
+from pathDriver import path_driver
 link = "http://suninjuly.github.io/simple_form_find_task.html"
 
 try:
-    browser = webdriver.Chrome('/home/vitaliy/.wdm/drivers/chromedriver/linux64/86.0.4240.22/chromedriver')
+    browser = webdriver.Chrome(path_driver)
     browser.get(link)
 
     input1 = browser.find_element_by_tag_name("input")

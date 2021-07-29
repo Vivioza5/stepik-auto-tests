@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 try:
-    browser = webdriver.Chrome('/home/vitaliy/.wdm/drivers/chromedriver/linux64/86.0.4240.22/chromedriver')
+    browser = webdriver.Chrome('/usr/local/bin/chromedriver')
     browser.get("http://suninjuly.github.io/find_xpath_form ")
     input1 = browser.find_element_by_tag_name("input")
     input1.send_keys("Ivan")

@@ -1,8 +1,8 @@
 from selenium import webdriver
 import time
-
+from pathDriver import path_driver
 try:
-    browser = webdriver.Chrome('/home/vitaliy/.wdm/drivers/chromedriver/linux64/86.0.4240.22/chromedriver')
+    browser = webdriver.Chrome(path_driver)
     browser.get("http://suninjuly.github.io/huge_form.html")
     elements = browser.find_elements_by_tag_name("input")
     for element in elements:
