@@ -1,0 +1,12 @@
+1627922390188	geckodriver	INFO	Listening on 127.0.0.1:42289
+1627922390249	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilev3awzI"
+Gtk-Message: 19:39:56.199: Failed to load module "colorreload-gtk-module"
+1627922402441	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilev3awzI/search.json.mozlz4", (void 0)))
+1627922421853	Marionette	INFO	Listening on port 33003
+1627922422189	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=0, line 6203: unreachable code after return statement
+1627922442462	Marionette	INFO	Stopped listening on port 33003
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
